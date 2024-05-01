@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>RITCH</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+
+
+ <div style='border: 1px solid gray; justify-content: space-around;display: flex; width: 90%, align-items: center;'> 
+    <form action="" method="post" style='padding:  10px; margin:  20px;border: 1px solid gray; justify-content: space-between;display: flex; flex-direction: column;'>
+     	<h5><i>Регистрация</i><br></h5>
+        <p>
+	    <label for="username1">Username</label>
+	    <input type="text" name="username1">
+	</p>
+	<p>
+	    <label for="password1">Password</label>
+	    <input type="password" name="password1">
+	</p>
+	<p>
+	    <input type="submit">
+	</p>
+    </form>
+
+    {% if message1 %}
+        <p>{{ message1 }}</p>
+    {% endif %}
+ 	<h3>Для работы на сайте нужно войти в аккаунт</h3>
+    <form action="" method="post" style='padding:  10px; margin:  20px;border: 1px solid gray; justify-content: space-between;display: flex; flex-direction: column;'>
+    <h5><i>Вход</i><br></h5>
+        <p>
+	    <label for="username">Username</label>
+	    <input type="text" name="username">
+	</p>
+	<p>
+	    <label for="password">Password</label>
+	    <input type="password" name="password">
+	</p>
+	<p>
+	    <input type="submit">
+	</p>
+    </form>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+</div>
+
+
+    
+
+</div>
+</body></html>

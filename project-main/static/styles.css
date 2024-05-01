@@ -1,0 +1,564 @@
+.Header {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 16px rgb(38 38 38 / 16%);
+    z-index: 1000;
+}
+
+.container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+
+.Header_body {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.Header_items {
+    display: flex;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.Header_signin {
+    margin: 16px;
+}
+
+.Header_basket {
+    margin: 0 30px 0 0;
+}
+
+.Header-logo {
+    overflow: visible;
+}
+
+.Header_logo, img {
+    margin-top: 9px;
+}
+
+a, img {
+    margin-top: 15px;
+}
+
+.vision {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    max-width: 1140px;
+    justify-content: center;
+}
+
+.container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.Search {
+    margin: 128px auto 0;
+    height: 24px;
+}
+
+.form_search {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+}
+
+.form_search > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    background: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.topNubex img {
+    height: 40px;
+    width: 40px;
+}
+
+.topNubex {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    z-index: 21;
+}
+
+.h {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+    padding: 15px 0px 15px 15px;
+}
+
+.Spisok {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.Card {
+    margin-bottom: 36px;
+    cursor: pointer;
+}
+
+.xcx {
+    transition: 1.5s;
+}
+
+.xcx:hover {
+    border: solid gray 1px;
+    border-radius: 4px;
+    transition: border 1.5s ease-in;
+    transition: border-radius 1.5s ease-in;
+    transition: background-color 1.5s ease-in;
+    transform: scale(1.05);
+}
+
+.card__img {
+    display: block;
+    height: 256px;
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+    text-decoration: none;
+}
+
+.card__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+}
+
+.card__time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.Card:hover {
+    text-decoration: none;
+}
+
+body:hover{
+    text-decoration: none;
+}
+
+body{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.turner:hover {
+    transform: scale(1.1);
+}
+
+.turner {
+    transition: 1.5s;
+}
+
+.Footer {
+    background-color: #262626;
+    margin-top: 80px;
+    color: #fff;
+    width: 100%;
+}
+
+.container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.FooterLogo {
+    height: 70px
+}
+
+.line {
+    height: 1px;
+    background: #ffffff;
+    opacity: 0.4;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.leftcontent {
+    display: flex;
+    margin-top: 20px;
+}
+
+.hash {
+    margin: 40px 40px 20px 0px;
+}
+
+.shape {
+    background-color: #3b3b3b;
+    padding: 10px;
+}
+
+.hashtag {
+    color: #49A144;
+}
+
+footer a {
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-style: Regular;
+    font-size: 13px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.footeroffooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 93px;
+}
+
+
+.links {
+    margin-left: -8px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+select {
+    word-wrap: normal;
+}
+
+.shape {
+    background-color: #3b3b3b;
+    padding: 10px;
+}
+
+#lang {
+    width: 60%;
+    height: 40px;
+    background-color: #3b3b3b;
+    border: none;
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.shape {
+    background-color: #3b3b3b;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.download a {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.rightcontent p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.centercontent p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.x1 {
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.x2 {
+    border: 0px;
+}
+
+.x22 {
+    border: 0px;
+}
+
+.main-list-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.main-list-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+
+@media screen and (max-width: 600px)
+.card_main {
+    margin-bottom: 0px;
+    height: 117px;
+}
+
+.left__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+
+.right__card {
+    float: right;
+}
+
+
+.card__uptext {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pushkindelivery {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.card__lowtext {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+@media screen and (max-width: 600px)
+.right__card > img {
+    width: 102px;
+    height: 102px;
+}
+.card_main {
+    height: 250px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+    transition: 1.5s ease-in-out;
+}
+
+.card_main:hover {
+    transform: scale(1.05);
+    background-color: rgb(230, 230, 230);
+    transition: background-color 1.5s ease-in-out;
+}
+
+.jpg {
+    margin: auto;
+    height: 250px;
+    width: 170px;
+}
+
+
+.firstsection {
+
+    background-image: url("123123.png");
+
+    background-position: 50% 50%;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    height: 364px;
+
+    margin-top: 72px;
+
+}
+
+.Card {
+
+    margin-bottom: 36px;
+
+}
+
+@media screen and (max-width: 600px)
+
+.card__pushkin {
+
+    margin-left: 16px;
+
+    padding-bottom: 38px;
+
+}
+
+@media screen and (max-width: 520px)
+
+.card__pushkin {
+
+    width: 308px;
+
+    height: 180px;
+
+}
+
+.card__pushkin {
+    padding-right: 29px;
+    padding-left: 38px;
+    position: absolute;
+    margin-top: 80px;
+    background-color: white;
+    height: 210px;
+}
+
+.one {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 28px;
+
+}
+
+.name {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 42px;
+    color: #1D1D1D;
+}
+
+@media screen and (max-width: 520px)
+.second {
+    flex-direction: column;
+    align-content: center;
+}
+
+.second {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    margin-top: 32px;
+
+}
+
+.pushkindelivery {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.time__delivery {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    width: 110px;
+    border-radius: 16px;
+    background-color: #262626;
+    color: #FFFFFF;
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 52px;
+}
+
+p {
+    text-decoration: none;
+}
+
+.left__card a {
+    margin-top: 7px;
+}
